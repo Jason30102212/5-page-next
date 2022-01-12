@@ -24,13 +24,14 @@ const images = [
 const ImageGallery = () => {
 
   const generateImages = () => {
-    return images.map(image => {
+    return images.map((image, key) => {
       return (
         <Col
           sm="6"
           md="3"
           lg="2"
           className={styles.imageGallery__image__column}
+          key={key}
         >
           <img className={styles.imageGallery__image} src={image.url} />
         </Col>
