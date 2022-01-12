@@ -1,0 +1,188 @@
+.timetable {
+  &__container {
+    text-align: center;
+  }
+
+  &__title {
+    text-align: center;
+    &__row {
+      text-align: center;
+      width: 100%;
+      background-color: red;
+    }
+  }
+
+  &__days {
+    text-align: center;
+    justify-content: space-between;
+
+
+    & > div > h3 {
+      padding: 10px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+  }
+
+  &__time {
+
+    &__one {
+
+    }
+
+    &__two {
+
+    }
+
+    &__three {
+
+    }
+
+    &__four {
+
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .timetable {
+    width: 100%;
+
+    &__container {
+      margin: 0px;
+      padding: 0px;
+      min-width: 100%;
+    }
+
+    &__title {
+      margin: 0px;
+      padding: 0px;
+
+      &__row {
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    &__days {
+      background-color: blue;
+      width: 100%;
+      margin: 0px;
+      justify-content: space-between;
+
+
+      & > div > h3 {
+        padding: 10px;
+        font-size: 28px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .timetable {
+    width: 100%;
+
+    &__container {
+      margin: 0px;
+      padding: 0px;
+      min-width: 100%;
+    }
+
+    &__title {
+      margin: 0px;
+      padding: 0px;
+
+      &__row {
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    &__days {
+      background-color: blue;
+      width: 100%;
+      margin: 0px;
+      justify-content: space-between;
+
+
+      & > div > h3 {
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .timetable {
+    width: 100%;
+
+    &__container {
+      margin: 0px;
+      padding: 0px;
+      min-width: 100%;
+    }
+
+    &__title {
+      margin: 0px;
+      padding: 0px;
+
+      &__row {
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    &__days {
+      background-color: blue;
+      width: 100%;
+      margin: 0px;
+      max-width: 100%;
+      justify-content: space-between;
+
+
+      & > div > h3 {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .timetable {
+    width: 100%;
+
+    &__container {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    &__title {
+      margin: 0px;
+      padding: 0px;
+
+      &__row {
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    &__days {
+      background-color: blue;
+      width: 100%;
+      min-width: 526px;
+      margin: 0px;
+      justify-content: space-between;
+      & > div > h3 {
+        padding: 10px;
+        font-size: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}

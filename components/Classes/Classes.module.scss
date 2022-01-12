@@ -1,0 +1,31 @@
+.classes {
+
+  &__container {
+  }
+
+  &__row {
+    margin-top: 50px;
+  }
+
+  &__text {
+
+    &__column {
+    }
+
+    &__heading {
+
+      &__div {
+        text-align: center;
+      }
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    &__row {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+}

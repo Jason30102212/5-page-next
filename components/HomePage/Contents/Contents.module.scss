@@ -1,0 +1,22 @@
+.content {
+
+  &__container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  &__row {
+    padding: 0px;
+
+    & > div {
+      padding: 0px;
+    }
+  }
+
+  &_heading__column {
+    text-align: center;
+    padding: 0px;
+  }
+}

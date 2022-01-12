@@ -1,0 +1,29 @@
+.footer {
+  position: absolute;
+  bottom: 50px;
+}
+
+.footerContainer {
+  width: 100%;
+  max-width: none;
+}
+
+.footerColumn {
+  background-color: green;
+  text-align: center;
+  padding: 10px;
+}
+
+.footerColumn h3 {
+  margin: 30px;
+}
+
+.footerColumn p {
+  margin: 10px;
+  color: grey;
+}
+
+.footerColumn div {
+  margin: 10px;
+  color: grey;
+}

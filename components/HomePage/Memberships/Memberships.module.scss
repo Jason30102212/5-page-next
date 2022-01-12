@@ -1,0 +1,53 @@
+.memberships {
+  &__container {
+    text-align: center;
+  }
+
+  &__heading {
+    &__row {
+
+    }
+  }
+
+  &__description {
+    &__row {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__heading__column {
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Montserrat"
+  }
+
+  &__fragments {
+
+    &__row {
+
+    }
+    &__column {
+
+    }
+    &__heading {
+      color: red;
+      margin:50px;
+    }
+    &__price {
+      margin-bottom: 50px;
+      font-weight: bold;
+    }
+    &__button {
+
+    }
+  }
+
+  &__disclaimer {
+    &__column {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-style: italic;
+    }
+  }
+}

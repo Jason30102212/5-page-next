@@ -1,0 +1,31 @@
+.content_card {
+
+  &__container {
+    text-align: center;
+    padding: 0px;
+  }
+
+  &__card {
+    border: 0px;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__title {
+    margin-top: 40px;
+    color: red;
+    font-family: "Montserrat"
+  }
+
+  &__description {
+    font-family: "Montserrat"
+  }
+
+  @media only screen and (max-width: 768px) {
+    &__container {
+      
+    }
+  }
+}

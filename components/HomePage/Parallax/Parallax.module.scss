@@ -1,0 +1,35 @@
+.parallax {
+  &_container {
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+    /* Set a specific height */
+    min-height: 550px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__column {
+    text-align: center;
+  }
+
+  &__heading {
+    margin: 50px;
+    font-size: 50px;
+    font-family: "Montserrat"
+  }
+
+  &__content {
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 200px;
+  }
+
+  &__button {
+    padding: 30px;
+  }
+}
