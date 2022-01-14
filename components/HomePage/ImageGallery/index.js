@@ -27,6 +27,7 @@ const ImageGallery = () => {
     return images.map((image, key) => {
       return (
         <Col
+          xs="6"
           sm="6"
           md="3"
           lg="2"

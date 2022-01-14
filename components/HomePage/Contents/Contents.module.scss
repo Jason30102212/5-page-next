@@ -1,5 +1,4 @@
 .content {
-
   &__container {
     width: 100%;
     max-width: 100%;
@@ -9,14 +8,58 @@
 
   &__row {
     padding: 0px;
+    margin: 40px;
 
     & > div {
       padding: 0px;
     }
   }
 
-  &_heading__column {
+  &__heading__column {
     text-align: center;
     padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+  .content {
+    &__container {
+      width: 100%;
+      max-width: 100%;
+      min-width: 500px;
+
+      margin: 0px;
+      padding: 0px;
+    }
+
+    &__row {
+      padding: 0px;
+      margin: 40px;
+
+      & > div {
+        padding: 0px;
+      }
+    }
+
+    &__heading__column {
+      text-align: center;
+      padding: 0px;
+
+      & > h1 {
+
+      }
+    }
   }
 }

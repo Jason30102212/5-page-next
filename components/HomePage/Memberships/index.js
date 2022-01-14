@@ -53,7 +53,7 @@ const Memberships = () => {
           md="12"
           className={classNames(styles.memberships__disclaimer__column)}
         >
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>*we have many different membership options to choose from, rest assured that after your free trial class the receptionist will go through these options with you to find one that suits you best.</p>
         </Col>
       </Row>
     </Container>

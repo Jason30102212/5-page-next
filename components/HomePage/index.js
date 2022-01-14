@@ -6,7 +6,6 @@ import Memberships from './Memberships'
 const HomePage = () => {
   return (
     <div>
-      <div>Home Component</div>
       <Contents />
       <Parallax />
       <Memberships />

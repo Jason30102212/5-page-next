@@ -3,8 +3,9 @@
     margin: 0px;
     width: 100%;
     max-width: 100%;
+    min-width: 500px;
     /* Set a specific height */
-    min-height: 550px;
+    min-height: 640px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -18,18 +19,96 @@
   }
 
   &__heading {
-    margin: 50px;
+    margin: 200px;
+    margin-bottom: 50px;
     font-size: 50px;
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    color: white;
   }
 
   &__content {
     margin-left: 10%;
     margin-right: 10%;
-    min-height: 200px;
+    min-height: 100px;
+    color: white;
   }
 
   &__button {
     padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .parallax {
+    &__container {
+      height: 300px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .parallax {
+    &__container {
+      height: 300px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .parallax {
+    &__heading {
+      margin: 20px;;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      font-size: 50px;
+      font-family: "Montserrat";
+      color: white;
+    }
+
+    &__content {
+      margin-top: 80px;
+      margin-left: 10%;
+      margin-right: 10%;
+      min-height: 100px;
+      color: white;
+    }
+
+    &__button {
+      margin-top: 80px;
+      padding: 30px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .parallax {
+    &__container {
+      height: 300px;
+    }
+
+    &__heading {
+      margin: 20px;;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      font-size: 50px;
+      font-family: "Montserrat";
+      color: white;
+    }
+
+    &__content {
+      margin-top: 80px;
+      margin-left: 10%;
+      margin-right: 10%;
+      min-height: 100px;
+      color: white;
+    }
+
+    &__button {
+      margin-top: 80px;
+      padding: 30px;
+    }
   }
 }

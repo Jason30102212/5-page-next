@@ -1,19 +1,20 @@
-import styles from './Parallax.module.scss'
-import classNames from 'classnames'
-
 import {
   Container,
   Row,
   Col,
   Button
 } from 'reactstrap'
+import styles from './Parallax.module.scss'
+import classNames from 'classnames'
+
+import logo from '../../Header/Capture.PNG'
 
 const Parallax = () => {
   return (
     <Container
       className={styles.parallax_container}
       style={{
-        backgroundImage: `url("https://via.placeholder.com/200x200")`
+        backgroundImage: `url(${logo.src})`
       }}
     >
       <Row>
@@ -21,8 +22,8 @@ const Parallax = () => {
           sm='12'
           className={classNames(styles.parallax__column)}
         >
-          <h1 className={classNames(styles.parallax__heading)}>PARALLAX COMPONENT</h1>
-          <p className={classNames(styles.parallax__content)}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h1 className={classNames(styles.parallax__heading)}>OUR CULTURE</h1>
+          <p className={classNames(styles.parallax__content)}>When you train at Infinite, you’ll be training a welcoming, supportive, family culture. Lead by our team of highly trained, professional coaches, our members will make you feel comfortable from the minute you step foot on the mat. </p>
           <Button
             className={classNames(styles.parallax__button)}
           >
