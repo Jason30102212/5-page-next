@@ -1,10 +1,27 @@
 .header {
+
   &__container {
     max-width: 100%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+      background-repeat: no-repeat;
+      background-position: 40% 30%;
+      background-size: cover;
+      background-image: url('./Capture.PNG'),
+    }
   }
 
   &__column {
@@ -12,12 +29,11 @@
     padding: 20px;
     text-transform: uppercase;
     font-weight:900;
-    background-color: black;
-    opacity: 0.7;
+
   }
 
   &__welcome {
-    color: white;
+    color: red;
     font-weight:900;
     font-size: 30px;
     margin: 30px;
@@ -25,7 +41,7 @@
   }
 
   &__main {
-    color: white;
+    color: red;
     font-weight:900;
     font-size: 50px;
     max-width: 900px;
@@ -33,14 +49,14 @@
   }
 
   &__try {
-    color: white;
+    color: red;
     font-weight:900;
     font-size: 30px;
     margin: 30px;
   }
 
   &__address {
-    color: white;
+    color: red;
     font-weight:900;
     font-size: 20px;
     margin: 20px;
@@ -54,14 +70,12 @@
     }
 
     &__welcome {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 0px;
     }
 
     &__main {
-      color: white;
       font-weight:900;
       font-size: 30px;
       max-width: 900px;
@@ -69,14 +83,12 @@
     }
 
     &__try {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 30px;
     }
 
     &__address {
-      color: white;
       font-weight:900;
       font-size: 15px;
       margin: 15px;
@@ -91,14 +103,12 @@
     }
 
     &__welcome {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 0px;
     }
 
     &__main {
-      color: white;
       font-weight:900;
       font-size: 20px;
       max-width: 900px;
@@ -106,14 +116,12 @@
     }
 
     &__try {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 30px;
     }
 
     &__address {
-      color: white;
       font-weight:900;
       font-size: 15px;
       margin: 15px;
@@ -128,14 +136,12 @@
     }
 
     &__welcome {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 0px;
     }
 
     &__main {
-      color: white;
       font-weight:900;
       font-size: 25px;
       max-width: 600px;
@@ -143,14 +149,12 @@
     }
 
     &__try {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 30px;
     }
 
     &__address {
-      color: white;
       font-weight:900;
       font-size: 20px;
       margin: 30px;
@@ -166,14 +170,12 @@
     }
 
     &__welcome {
-      color: white;
       font-weight:900;
       font-size: 10px;
       margin: 0px;
     }
 
     &__main {
-      color: white;
       font-weight:900;
       font-size: 30px;
       max-width: 900px;
@@ -181,14 +183,12 @@
     }
 
     &__try {
-      color: white;
       font-weight:900;
       font-size: 15px;
       margin: 30px;
     }
 
     &__address {
-      color: white;
       font-weight:900;
       font-size: 10px;
       margin: 10px;

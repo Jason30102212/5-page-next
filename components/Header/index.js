@@ -7,11 +7,7 @@ const Header = (props) => {
     <Container
       className={styles.header__container}
       style={{
-        backgroundImage: `url(${logo.src})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed',
-        backgroundPosition: 'center',
-        backgroundColor: 'rgba(0, 0, 0, 0.9)'
+
       }}
     >
       <Row>
