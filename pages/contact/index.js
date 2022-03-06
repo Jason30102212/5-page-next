@@ -1,11 +1,10 @@
 import Layout from '../../components/Layout'
+import Contact from '../../components/Contact'
 
 const contact = () => {
   return(
     <Layout>
-      <div>
-        <h1>Contact</h1>
-      </div>
+      <Contact />
     </Layout>
   )
 }

@@ -13,9 +13,9 @@ const Timetable = () => {
     <Container
       className={classNames(styles.timetable__container)}
     >
+      <h1 className={styles.timetable__heading}>TIMETABLE</h1>
       <Row className={styles.timetable__title__row}>
         <Col>
-          <h1 className={styles.timetable__title}>Timetable</h1>
         </Col>
       </Row>
       <Row className={styles.timetable__days}>

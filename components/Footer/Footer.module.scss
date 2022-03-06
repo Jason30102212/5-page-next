@@ -12,6 +12,14 @@
   background-color: green;
   text-align: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__map {
+    height: 200px;
+    object-fit: cover;
+  }
 }
 
 .footerColumn h3 {

@@ -5,7 +5,6 @@ const classes = () => {
   return(
     <Layout>
       <div>
-        <h1>Classes</h1>
         <Classes />
       </div>
     </Layout>

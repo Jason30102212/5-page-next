@@ -2,7 +2,9 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
 import classNames from 'classnames'
 
-import styles from './Footer.module.css'
+import map from "../../public/static/images/map.PNG"
+
+import styles from './Footer.module.scss'
 
 const Footer = () => {
   return (
@@ -29,7 +31,7 @@ const Footer = () => {
           >
             <h3>DROP IN AND SAY HI</h3>
             <p>Lot 10, Harvey Street, Adelaide</p>
-            <img src="https://via.placeholder.com/350x150"></img>
+            <img className={styles.footerColumn__map} src={map.src}></img>
           </Col>
           <Col
             className={classNames("bg-light", styles.footerColumn)}
@@ -43,22 +45,22 @@ const Footer = () => {
               </Link>
             </div>
             <div>
-              <Link href="/">
+              <Link href="/classes">
                 <a>CLASSES</a>
               </Link>
             </div>
             <div>
-              <Link href="/">
+              <Link href="/timetable">
                 <a>TIMETABLE</a>
               </Link>
             </div>
             <div>
-              <Link href="/">
+              <Link href="/about">
                 <a>ABOUT</a>
               </Link>
             </div>
             <div>
-              <Link href="/">
+              <Link href="/contact">
                 <a>CONTACT</a>
               </Link>
             </div>
